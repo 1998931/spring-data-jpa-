@@ -7,6 +7,7 @@ import jakarta.persistence.ManyToOne;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.hibernate.annotations.CascadeType;
 
 @Entity
 @AllArgsConstructor
@@ -21,5 +22,6 @@ public class Address {
     private String country;
     @ManyToOne
     @JoinColumn(name = "student_id")
+
     private Student student;
 }
