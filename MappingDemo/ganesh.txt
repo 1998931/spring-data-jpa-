@@ -1,1 +1,6 @@
 Task for Ganesh : Pull the latest changes and do it for fast
+Created by:Ganesh
+
+Added three restApI : find by id, find by name, find all
+
+Please check
